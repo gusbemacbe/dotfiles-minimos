@@ -1,0 +1,1012 @@
+# 🇬🇧 Compression formats
+# 🇵🇹 Formatos de compressão
+# 🇪🇸 Formatos de compresión
+*.7z                   filter=lfs diff=lfs merge=lfs -text
+*.bz2                  filter=lfs diff=lfs merge=lfs -text
+*.bzip                 filter=lfs diff=lfs merge=lfs -text
+*.bzip2                filter=lfs diff=lfs merge=lfs -text
+# Windows cabinet format
+*.cab                  filter=lfs diff=lfs merge=lfs -text
+*.gz                   filter=lfs diff=lfs merge=lfs -text
+*.gzip                 filter=lfs diff=lfs merge=lfs -text
+*.lzma                 filter=lfs diff=lfs merge=lfs -text
+*.rar                  filter=lfs diff=lfs merge=lfs -text
+*.tar                  filter=lfs diff=lfs merge=lfs -text
+# tar + gzip format
+*.tgz                  filter=lfs diff=lfs merge=lfs -text
+# tar + xz format
+*.txz                  filter=lfs diff=lfs merge=lfs -text
+# Extensible file format
+*.xar                  filter=lfs diff=lfs merge=lfs -text
+# macOS signed archive format
+*.xip                  filter=lfs diff=lfs merge=lfs -text
+*.xz                   filter=lfs diff=lfs merge=lfs -text
+*.zip                  filter=lfs diff=lfs merge=lfs -text
+*.zst                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Design formats
+# 🇵🇹 Formatos de desenho
+# 🇪🇸 Formatos de diseño
+# Acorn app (macOS)
+*.acorn                filter=lfs diff=lfs merge=lfs -text
+# Affinity Designer
+*.afdesign             filter=lfs diff=lfs merge=lfs -text
+# Affinity Photo
+*.afphoto              filter=lfs diff=lfs merge=lfs -text
+# Affinity Publisher
+*.afpub                filter=lfs diff=lfs merge=lfs -text
+# Adobe Illustrator
+*.ai                   filter=lfs diff=lfs merge=lfs -text
+# Artboard app (macOS)
+*.artb                 filter=lfs diff=lfs merge=lfs -text
+# CorelDRAW
+*.cdr                  filter=lfs diff=lfs merge=lfs -text
+# Encapsulated PostScript
+*.eps                  filter=lfs diff=lfs merge=lfs -text
+# Figma
+*.fig                  filter=lfs diff=lfs merge=lfs -text
+# Gravit Designer
+*.gvdesign             filter=lfs diff=lfs merge=lfs -text
+# Adobe InDesign
+*.indd                 filter=lfs diff=lfs merge=lfs -text
+# Krita
+*.kra                  filter=lfs diff=lfs merge=lfs -text
+# GIMP
+*.pix                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Photoshop
+*.psd                  filter=lfs diff=lfs merge=lfs -text
+# Pixelmator (macOS)
+*.pxd                  filter=lfs diff=lfs merge=lfs -text
+# Pixelmator (macOS)
+*.pxm                  filter=lfs diff=lfs merge=lfs -text
+# Sketch App (macOS)
+*.sketch               filter=lfs diff=lfs merge=lfs -text
+*.svg                  filter=lfs diff=lfs merge=lfs -text
+# GIMP
+*.xcf                  filter=lfs diff=lfs merge=lfs -text
+# Adobe XD
+*.xd                   filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Video formats
+# 🇵🇹 Formatos de vídeo
+# 🇪🇸 Formatos de vídeo
+# Audio Video Interleave
+*.avi                  filter=lfs diff=lfs merge=lfs -text
+# MPEG-4 Video for iTunes
+*.m4v                  filter=lfs diff=lfs merge=lfs -text
+# Matroska
+*.mkv                  filter=lfs diff=lfs merge=lfs -text
+# Apple QuickTime Movie
+*.mov                  filter=lfs diff=lfs merge=lfs -text
+# MPEG-4 Part 14
+*.mp4                  filter=lfs diff=lfs merge=lfs -text
+# MPEG-1 or MPEG-2
+*.mpeg                 filter=lfs diff=lfs merge=lfs -text
+# MPEG-1 or MPEG-2
+*.mpg                  filter=lfs diff=lfs merge=lfs -text
+# Ogg media
+*.ogm                  filter=lfs diff=lfs merge=lfs -text
+# Ogg video
+*.ogv                  filter=lfs diff=lfs merge=lfs -text
+# WebM
+*.webm                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Application formats
+# 🇵🇹 Formatos de aplicação
+# 🇪🇸 Formatos de aplicación
+# macOS application
+*.app                  filter=lfs diff=lfs merge=lfs -text
+# Linux application
+*.appimage             filter=lfs diff=lfs merge=lfs -text
+# Linux application
+*.AppImage             filter=lfs diff=lfs merge=lfs -text
+# Windows application
+*.exe                  filter=lfs diff=lfs merge=lfs -text
+# iOS application
+*.ipa                  filter=lfs diff=lfs merge=lfs -text
+# Java application
+*.jar                  filter=lfs diff=lfs merge=lfs -text
+# Linux application
+*.run                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Installer and package formats
+# 🇵🇹 Formatos de instalação e pacote
+# 🇪🇸 Formatos de instalación y paquete
+# Alpine Linux or Android package
+*.apk                  filter=lfs diff=lfs merge=lfs -text
+# Windows Store application
+*.appx                 filter=lfs diff=lfs merge=lfs -text
+# Arch Linux User Repository package
+*.aur                  filter=lfs diff=lfs merge=lfs -text
+# Debian package
+*.deb                  filter=lfs diff=lfs merge=lfs -text
+# Windows executable installer
+*.exe                  filter=lfs diff=lfs merge=lfs -text
+# Flatpak package
+*.flatpak              filter=lfs diff=lfs merge=lfs -text
+# Windows installer
+*.msi                  filter=lfs diff=lfs merge=lfs -text
+# Windows Store application package
+*.msix                 filter=lfs diff=lfs merge=lfs -text
+# Windows Store application bundle
+*.msixbundle           filter=lfs diff=lfs merge=lfs -text
+# Arch Linux package
+*.pacman               filter=lfs diff=lfs merge=lfs -text
+# macOS installer
+*.pkg                  filter=lfs diff=lfs merge=lfs -text
+# Red Hat Package Manager
+*.rpm                  filter=lfs diff=lfs merge=lfs -text
+# Snapcraft
+*.snap                 filter=lfs diff=lfs merge=lfs -text
+# Void Linux package
+*.xbps                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Disk image formats
+# 🇵🇹 Formatos de imagem de disco
+# 🇪🇸 Formatos de imagen de disco
+# macOS disk image
+*.dmg                  filter=lfs diff=lfs merge=lfs -text
+# Generic disk image
+*.img                  filter=lfs diff=lfs merge=lfs -text
+# ISO disk image
+*.iso                  filter=lfs diff=lfs merge=lfs -text
+# QEMU disk image
+*.qcow                 filter=lfs diff=lfs merge=lfs -text
+# QEMU disk image
+*.qcow2                filter=lfs diff=lfs merge=lfs -text
+# VirtualBox disk image
+*.vdi                  filter=lfs diff=lfs merge=lfs -text
+# Virtual Hard Disk
+*.vhd                  filter=lfs diff=lfs merge=lfs -text
+# Virtual Hard Disk for Hyper-V
+*.vhdx                 filter=lfs diff=lfs merge=lfs -text
+# VMware disk image
+*.vmdk                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Application, browser and system extension formats
+# 🇵🇹 Formatos de extensão de aplicação, navegador e sistema
+# 🇪🇸 Formatos de extensión de aplicación, navegador y sist
+# Adobe Photoshop plug-inema
+*.8bi                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Photoshop plug-in
+*.8pi                  filter=lfs diff=lfs merge=lfs -text
+# Chrome extension
+*.crx                  filter=lfs diff=lfs merge=lfs -text
+# Adobe InDesign plugin
+*.indesignplugin       filter=lfs diff=lfs merge=lfs -text
+# macOS kernel extension
+*.kext                 filter=lfs diff=lfs merge=lfs -text
+# OpenOffice extension
+*.oxt                  filter=lfs diff=lfs merge=lfs -text
+# macOS plugin
+*.plugin               filter=lfs diff=lfs merge=lfs -text
+# Safari extension
+*.safariextz           filter=lfs diff=lfs merge=lfs -text
+# Visual Studio Code extension
+*.vsix                 filter=lfs diff=lfs merge=lfs -text
+# Xcode plugin
+*.xcodeplugin          filter=lfs diff=lfs merge=lfs -text
+# Xcode plugin
+*.xcplugin             filter=lfs diff=lfs merge=lfs -text
+# Firefox extension
+*.xpi                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Icon formats
+# 🇵🇹 Formatos de ícone
+# 🇪🇸 Formatos de icono
+# Windows icon
+*.ico                  filter=lfs diff=lfs merge=lfs -text
+# macOS icon
+*.icns                 filter=lfs diff=lfs merge=lfs -text
+# macOS icon
+ICON                   filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Directory configuration and customisation formats
+# 🇵🇹 Formatos de configuração e personalização de directório
+# 🇪🇸 Formatos de configuración y personalización de direct
+# Desktop entryorio
+*.desktop              filter=lfs diff=lfs merge=lfs -text
+# KDE directory
+*.directory            filter=lfs diff=lfs merge=lfs -text
+# macOS icon set
+*.iconset              filter=lfs diff=lfs merge=lfs -text
+# Windows configuration
+*.ini                  filter=lfs diff=lfs merge=lfs -text
+# macOS configuration
+*.plist                filter=lfs diff=lfs merge=lfs -text
+# GNOME and KDE theme
+*.theme                filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 System configuration and customisation formats
+# 🇵🇹 Formatos de configuração e personalização de sistema
+# 🇪🇸 Formatos de configuración y personalización de sistem
+# Linux configurationa
+*.conf                 filter=lfs diff=lfs merge=lfs -text
+# Linux configuration
+*.config               filter=lfs diff=lfs merge=lfs -text
+# macOS preference pane
+*.prefpane             filter=lfs diff=lfs merge=lfs -text
+# Vim configuration
+*.vim                  filter=lfs diff=lfs merge=lfs -text
+# Vim configuration
+*.vimrc                filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Image formats
+# 🇵🇹 Formatos de imagem
+# 🇪🇸 Formatos de imagen
+# Windows bitmap
+*.bmp                  filter=lfs diff=lfs merge=lfs -text
+# JPEG File Interchange Format
+*.jfif                 filter=lfs diff=lfs merge=lfs -text
+# JPEG image
+*.jpeg                 filter=lfs diff=lfs merge=lfs -text
+# JPEG image
+*.jpg                  filter=lfs diff=lfs merge=lfs -text
+# Portable Network Graphics
+*.png                  filter=lfs diff=lfs merge=lfs -text
+# Tagged Image File Format
+*.tif                  filter=lfs diff=lfs merge=lfs -text
+# Tagged Image File Format
+*.tiff                 filter=lfs diff=lfs merge=lfs -text
+# WebP image
+*.webp                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Animated image formats
+# 🇵🇹 Formatos de imagem animada
+# 🇪🇸 Formatos de imagen animada
+# Animated Portable Network Graphics
+*.apng                 filter=lfs diff=lfs merge=lfs -text
+# AV1 Image File Format
+*.avif                 filter=lfs diff=lfs merge=lfs -text
+# Free Lossless Image Format
+*.flif                 filter=lfs diff=lfs merge=lfs -text
+# Graphics Interchange Format
+*.gif                  filter=lfs diff=lfs merge=lfs -text
+# Multiple-image Network Graphics
+*.mng                  filter=lfs diff=lfs merge=lfs -text
+# WebP image
+*.webp                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 3D image formats
+# 🇵🇹 Formatos de imagem 3D
+# 🇪🇸 Formatos de imagen 3D
+# 3D Studio Max
+*.3ds                  filter=lfs diff=lfs merge=lfs -text
+# Blender
+*.blend                filter=lfs diff=lfs merge=lfs -text
+# Cinema 4D
+*.c4d                  filter=lfs diff=lfs merge=lfs -text
+# COLLADA
+*.dae                  filter=lfs diff=lfs merge=lfs -text
+# Autodesk FBX
+*.fbx                  filter=lfs diff=lfs merge=lfs -text
+# Wavefront Object
+*.obj                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Document and text formats
+# 🇵🇹 Formatos de documento e texto
+# 🇪🇸 Formatos de documento y texto
+# AbiWord
+*.abw                  filter=lfs diff=lfs merge=lfs -text
+# ASCII text
+*.asc                  filter=lfs diff=lfs merge=lfs -text
+# ASCII text
+*.ascii                filter=lfs diff=lfs merge=lfs -text
+# Microsoft Word
+*.doc                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Word (OpenXML)
+*.docx                 filter=lfs diff=lfs merge=lfs -text
+# Google Docs
+*.gdoc                 filter=lfs diff=lfs merge=lfs -text
+# Tumult Hype document
+*.hype                 filter=lfs diff=lfs merge=lfs -text
+# IPython notebook
+*.ipy                  filter=lfs diff=lfs merge=lfs -text
+# Jupyter notebook
+*.ipynb                filter=lfs diff=lfs merge=lfs -text
+# Markdown
+*.md                   filter=lfs diff=lfs merge=lfs -text
+# OpenDocument text
+*.odt                  filter=lfs diff=lfs merge=lfs -text
+# Apple Pages
+*.pages                filter=lfs diff=lfs merge=lfs -text
+# Adobe Portable Document Format
+*.pdf                  filter=lfs diff=lfs merge=lfs -text
+# R Markdown
+*.rmd                  filter=lfs diff=lfs merge=lfs -text
+# Rich Text Format
+*.rtf                  filter=lfs diff=lfs merge=lfs -text
+# Scribus document
+*.scribus              filter=lfs diff=lfs merge=lfs -text
+# Scrivener document
+*.scriv                filter=lfs diff=lfs merge=lfs -text
+# Scribus document
+*.sla                  filter=lfs diff=lfs merge=lfs -text
+# Text
+*.txt                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Presentation formats
+# 🇵🇹 Formatos de apresentação
+# 🇪🇸 Formatos de presentación
+# Apple Keynote
+*.key                  filter=lfs diff=lfs merge=lfs -text
+# OpenDocument presentation
+*.odp                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft PowerPoint
+*.ppt                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft PowerPoint (OpenXML)
+*.pptx                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Spreadsheet formats
+# 🇵🇹 Formatos de folha de cálculo
+# 🇪🇸 Formatos de hoja de cálculo
+# OpenDocument spreadsheet
+*.ods                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Excel
+*.xls                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Excel (OpenXML)
+*.xlsx                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Template formats
+# 🇵🇹 Formatos de modelo
+# 🇪🇸 Formatos de modelo
+# Affinity template
+*.aftemplate           filter=lfs diff=lfs merge=lfs -text
+# Adobe Illustrator template
+*.ait                  filter=lfs diff=lfs merge=lfs -text
+# AbiWord template
+*.awt                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Word template
+*.dot                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Word template (OpenXML)
+*.dotx                 filter=lfs diff=lfs merge=lfs -text
+# Tumult Hype template
+*.hypetemplate         filter=lfs diff=lfs merge=lfs -text
+# Adobe InDesign template
+*.indt                 filter=lfs diff=lfs merge=lfs -text
+# Komodo Edit template
+*.kpz                  filter=lfs diff=lfs merge=lfs -text
+# Keynote theme
+*.kth                  filter=lfs diff=lfs merge=lfs -text
+# OpenDocument text template
+*.ott                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft PowerPoint template
+*.pot                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft PowerPoint template (OpenXML)
+*.potx                 filter=lfs diff=lfs merge=lfs -text
+# OpenDocument spreadsheet template
+*.ots                  filter=lfs diff=lfs merge=lfs -text
+# Apple Pages template
+*.template             filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Book formats
+# 🇵🇹 Formatos de livro
+# 🇪🇸 Formatos de libro
+# Amazon Kindle eBook
+*.azw                  filter=lfs diff=lfs merge=lfs -text
+# Amazon Kindle eBook
+*.azw3                 filter=lfs diff=lfs merge=lfs -text
+# Amazon Kindle eBook
+*.azw4                 filter=lfs diff=lfs merge=lfs -text
+# Comic Book Archive
+*.cb7                  filter=lfs diff=lfs merge=lfs -text
+# Comic Book Archive
+*.cbc                  filter=lfs diff=lfs merge=lfs -text
+# Comic Book Archive RAR
+*.cbr                  filter=lfs diff=lfs merge=lfs -text
+# Comic Book Archive ZIP
+*.cbz                  filter=lfs diff=lfs merge=lfs -text
+# DjVu document
+*.djvu                 filter=lfs diff=lfs merge=lfs -text
+# Electronic publication
+*.epub                 filter=lfs diff=lfs merge=lfs -text
+# eBook HTML compressed
+*.htmlz                filter=lfs diff=lfs merge=lfs -text
+# iBooks Author
+*.iba                  filter=lfs diff=lfs merge=lfs -text
+# iBooks
+*.ibooks               filter=lfs diff=lfs merge=lfs -text
+# Mobipocket e-book
+*.mobi                 filter=lfs diff=lfs merge=lfs -text
+# eBook Web archive compressed
+*.webz                 filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Development language and script formats
+# 🇵🇹 Formatos de linguagem de desenvolvimento e de argumento
+# 🇪🇸 Formatos de lenguaje de desarrollo y de argumento
+
+## 🇬🇧 Markup and programming language formats
+## 🇵🇹 Formatos de linguagem de marcação e de programação
+## 🇪🇸 Formatos de lenguaje de marcado y de programación
+# Ada source code
+*.adb                  filter=lfs diff=lfs merge=lfs -text
+# AsciiDoc
+*.adoc                 filter=lfs diff=lfs merge=lfs -text
+# Ada source code
+*.ads                  filter=lfs diff=lfs merge=lfs -text
+# AsciiDoc
+*.asciidoc             filter=lfs diff=lfs merge=lfs -text
+# Assembly source code
+*.asm                  filter=lfs diff=lfs merge=lfs -text
+# ASP.NET
+*.aspx                 filter=lfs diff=lfs merge=lfs -text
+# BibTeX
+*.bib                  filter=lfs diff=lfs merge=lfs -text
+# BibTeX
+*.bibtex               filter=lfs diff=lfs merge=lfs -text
+# C source code
+*.c                    filter=lfs diff=lfs merge=lfs -text
+# COBOL source code
+*.cbl                  filter=lfs diff=lfs merge=lfs -text
+# C++ source code
+*.cc                   filter=lfs diff=lfs merge=lfs -text
+# CoffeeScript source code
+*.coffee               filter=lfs diff=lfs merge=lfs -text
+# COBOL source code
+*.cob                  filter=lfs diff=lfs merge=lfs -text
+# C++ source code
+*.cpp                  filter=lfs diff=lfs merge=lfs -text
+# C# source code
+*.cs                   filter=lfs diff=lfs merge=lfs -text
+# ASP.NET Razor
+*.cshtml               filter=lfs diff=lfs merge=lfs -text
+# CSS code file
+*.css                  filter=lfs diff=lfs merge=lfs -text
+# Dart source code
+*.dart                 filter=lfs diff=lfs merge=lfs -text
+# Eiffel source code
+*.e                    filter=lfs diff=lfs merge=lfs -text
+# Emacs Lisp source code
+*.el                   filter=lfs diff=lfs merge=lfs -text
+# Elm source code
+*.elm                  filter=lfs diff=lfs merge=lfs -text
+# Erlang source code
+*.erl                  filter=lfs diff=lfs merge=lfs -text
+# Fortran source code
+*.f                    filter=lfs diff=lfs merge=lfs -text
+# Fortran source code
+*.f90                  filter=lfs diff=lfs merge=lfs -text
+# Fortran source code
+*.for                  filter=lfs diff=lfs merge=lfs -text
+# Go source code
+*.go                   filter=lfs diff=lfs merge=lfs -text
+# Groovy source code
+*.groovy               filter=lfs diff=lfs merge=lfs -text
+# C header file
+*.h                    filter=lfs diff=lfs merge=lfs -text
+# HAML source code
+*.haml                 filter=lfs diff=lfs merge=lfs -text
+# C++ header file
+*.hh                   filter=lfs diff=lfs merge=lfs -text
+# C++ header file
+*.hpp                  filter=lfs diff=lfs merge=lfs -text
+# HTML document file
+*.html                 filter=lfs diff=lfs merge=lfs -text
+# Haskell source code
+*.hs                   filter=lfs diff=lfs merge=lfs -text
+# Arduino source code
+*.ino                  filter=lfs diff=lfs merge=lfs -text
+# Java source code
+*.java                 filter=lfs diff=lfs merge=lfs -text
+# Julia source code
+*.jl                   filter=lfs diff=lfs merge=lfs -text
+# JavaScript code file
+*.js                   filter=lfs diff=lfs merge=lfs -text
+# JSX code file
+*.jsx                  filter=lfs diff=lfs merge=lfs -text
+# Kotlin source code
+*.kt                   filter=lfs diff=lfs merge=lfs -text
+# LaTeX source code
+*.latex                filter=lfs diff=lfs merge=lfs -text
+# LESS code file
+*.less                 filter=lfs diff=lfs merge=lfs -text
+# Literate Haskell source code
+*.lhs                  filter=lfs diff=lfs merge=lfs -text
+# Lisp source code
+*.lisp                 filter=lfs diff=lfs merge=lfs -text
+# Lisp source code
+*.lsp                  filter=lfs diff=lfs merge=lfs -text
+# Lua source code
+*.lua                  filter=lfs diff=lfs merge=lfs -text
+# Mercury and Wolfram Languager source code
+*.m                    filter=lfs diff=lfs merge=lfs -text
+# MATLAB source code
+*.mat                  filter=lfs diff=lfs merge=lfs -text
+# MHTML document
+*.mht                  filter=lfs diff=lfs merge=lfs -text
+# MHTML document
+*.mhtml                filter=lfs diff=lfs merge=lfs -text
+# MJML code file
+*.mjml                 filter=lfs diff=lfs merge=lfs -text
+# OCaml source code
+*.ml                   filter=lfs diff=lfs merge=lfs -text
+# OCaml source code
+*.mli                  filter=lfs diff=lfs merge=lfs -text
+# MathML code file
+*.mml                  filter=lfs diff=lfs merge=lfs -text
+# Mathematica source code
+*.nb                   filter=lfs diff=lfs merge=lfs -text
+# Nim source code
+*.nim                  filter=lfs diff=lfs merge=lfs -text
+# Pascal source code
+*.pas                  filter=lfs diff=lfs merge=lfs -text
+# Perl source code
+*.perl                 filter=lfs diff=lfs merge=lfs -text
+# PHP code file
+*.php                  filter=lfs diff=lfs merge=lfs -text
+# Perl and Prolog source code
+*.pl                   filter=lfs diff=lfs merge=lfs -text
+# Poedit source code
+*.po                   filter=lfs diff=lfs merge=lfs -text
+# Poedit source code
+*.pod                  filter=lfs diff=lfs merge=lfs -text
+# Pascal source code
+*.pp                   filter=lfs diff=lfs merge=lfs -text
+# Python code file
+*.py                   filter=lfs diff=lfs merge=lfs -text
+# QT Meta Language code file
+*.qml                  filter=lfs diff=lfs merge=lfs -text
+# R source code
+*.r                    filter=lfs diff=lfs merge=lfs -text
+# Ruby code file
+*.rb                   filter=lfs diff=lfs merge=lfs -text
+# Rust source code
+*.rs                   filter=lfs diff=lfs merge=lfs -text
+# SASS code file
+*.sass                 filter=lfs diff=lfs merge=lfs -text
+# Scala source code
+*.scala                filter=lfs diff=lfs merge=lfs -text
+# SCSS code file
+*.scss                 filter=lfs diff=lfs merge=lfs -text
+# Swift source code
+*.swift                filter=lfs diff=lfs merge=lfs -text
+# TeX document file
+*.tex                  filter=lfs diff=lfs merge=lfs -text
+# TextMate language grammar
+*.tmlanguage           filter=lfs diff=lfs merge=lfs -text
+# TypeScript code file
+*.ts                   filter=lfs diff=lfs merge=lfs -text
+# TypeScript JSX code file
+*.tsx                  filter=lfs diff=lfs merge=lfs -text
+# PlantUML code file
+*.uml                  filter=lfs diff=lfs merge=lfs -text
+# Vala source code
+*.vala                 filter=lfs diff=lfs merge=lfs -text
+# Visual Basic source code
+*.vb                   filter=lfs diff=lfs merge=lfs -text
+# Visual Basic for Applications source code
+*.vba                  filter=lfs diff=lfs merge=lfs -text
+# XML document file
+*.xml                  filter=lfs diff=lfs merge=lfs -text
+# XSLT document file
+*.xsl                  filter=lfs diff=lfs merge=lfs -text
+# Wolfram Languager source code
+*.wl                   filter=lfs diff=lfs merge=lfs -text
+# YAML document file
+*.yaml                 filter=lfs diff=lfs merge=lfs -text
+# YAML document file
+*.yml                  filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Script formats
+## 🇵🇹 Formatos de ficheiros executáveis
+## 🇪🇸 Formatos de ficheros ejecutables
+# AppleScript source code
+*.applescript          filter=lfs diff=lfs merge=lfs -text
+# Windows batch file
+*.bat                  filter=lfs diff=lfs merge=lfs -text
+# Binary executable file
+*.bin                  filter=lfs diff=lfs merge=lfs -text
+# Windows command file
+*.cmd                  filter=lfs diff=lfs merge=lfs -text
+# Windows executable file
+*.exe                  filter=lfs diff=lfs merge=lfs -text
+# Fish shell script
+*.fish                 filter=lfs diff=lfs merge=lfs -text
+# Gradle build script
+*.gradle               filter=lfs diff=lfs merge=lfs -text
+# Korn shell script
+*.ksh                  filter=lfs diff=lfs merge=lfs -text
+# Windows PowerShell script
+*.ps1                  filter=lfs diff=lfs merge=lfs -text
+# Windows PowerShell module
+*.psm1                 filter=lfs diff=lfs merge=lfs -text
+# Python compiled code file
+*.pyc                  filter=lfs diff=lfs merge=lfs -text
+# Python compiled code file
+*.pyo                  filter=lfs diff=lfs merge=lfs -text
+# Ruby compiled code file
+*.rbw                  filter=lfs diff=lfs merge=lfs -text
+# Windows Registry script
+*.rgs                  filter=lfs diff=lfs merge=lfs -text
+# Shell script
+*.sh                   filter=lfs diff=lfs merge=lfs -text
+# Visual Basic Script source code
+*.vbs                  filter=lfs diff=lfs merge=lfs -text
+# VBScript source code
+*.vbscript             filter=lfs diff=lfs merge=lfs -text
+# X shell script
+*.xsh                  filter=lfs diff=lfs merge=lfs -text
+# Z shell script
+*.zsh                  filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Development configuration and project formats
+## 🇵🇹 Formatos de configuração de desenvolvimento e de projecto
+## 🇪🇸 Formatos de configuración de desarrollo y de proyect
+# BBEdit project fileo
+*.bbproject            filter=lfs diff=lfs merge=lfs -text
+# BlueJ project file
+*.bluej                filter=lfs diff=lfs merge=lfs -text
+# Eclipse C/C++ project file
+*.cproject             filter=lfs diff=lfs merge=lfs -text
+# Microsoft Visual Studio C# project file
+*.csproj               filter=lfs diff=lfs merge=lfs -text
+# Eclipse Java classpath file
+*.classpath            filter=lfs diff=lfs merge=lfs -text
+# IntelliJ IDEA project file
+*.iml                  filter=lfs diff=lfs merge=lfs -text
+# Komodo Edit project file
+*.kpf                  filter=lfs diff=lfs merge=lfs -text
+# Xcode project file
+*.lproj                filter=lfs diff=lfs merge=lfs -text
+# LightSwitch project file
+*.lsproj               filter=lfs diff=lfs merge=lfs -text
+# Eclipse project file
+*.project              filter=lfs diff=lfs merge=lfs -text
+# PyDev project file
+*.pydevproj            filter=lfs diff=lfs merge=lfs -text
+# Poetry project file
+*.pypoetry             filter=lfs diff=lfs merge=lfs -text
+# Python project file
+*.pyproj               filter=lfs diff=lfs merge=lfs -text
+# RStudio project file
+*.rproj                filter=lfs diff=lfs merge=lfs -text
+# Microsoft Visual Studio Visual Basic project file
+*.vbproj               filter=lfs diff=lfs merge=lfs -text
+# Microsoft Visual Studio C++ project file
+*.vcproj               filter=lfs diff=lfs merge=lfs -text
+# Microsoft Visual Studio C++ project file
+*.vcxproj              filter=lfs diff=lfs merge=lfs -text
+# Xcode project file
+*.xcodeproj            filter=lfs diff=lfs merge=lfs -text
+# Xcode configuration file
+*.xconfig              filter=lfs diff=lfs merge=lfs -text
+# Xamarin Studio project file
+*.xproj                filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Data interchange formats
+## 🇵🇹 Formatos de intercâmbio de dados
+## 🇪🇸 Formatos de intercambio de datos
+# Comma-separated values
+*.csv                  filter=lfs diff=lfs merge=lfs -text
+# JavaScript Object Notation
+*.json                 filter=lfs diff=lfs merge=lfs -text
+# JavaScript Object Notation (JSON with comments)
+*.jsonc                filter=lfs diff=lfs merge=lfs -text
+# JSON5
+*.json5                filter=lfs diff=lfs merge=lfs -text
+# Tom's Obvious, Minimal Language
+*.toml                 filter=lfs diff=lfs merge=lfs -text
+# Extensible Markup Language
+*.xml                  filter=lfs diff=lfs merge=lfs -text
+# YAML Ain't Markup Language
+*.yaml                 filter=lfs diff=lfs merge=lfs -text
+# YAML Ain't Markup Language
+*.yml                  filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Patch and diff formats
+## 🇵🇹 Formatos de patch e de diferença
+## 🇪🇸 Formatos de patch y de diferencia
+# Diff file
+*.diff                 filter=lfs diff=lfs merge=lfs -text
+# Patch file
+*.patch                filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Database formats
+## 🇵🇹 Formatos de base de dados
+## 🇪🇸 Formatos de base de datos
+# Database file
+*.db                   filter=lfs diff=lfs merge=lfs -text
+# Database file
+*.dbf                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Access database file
+*.mdb                  filter=lfs diff=lfs merge=lfs -text
+# PostgreSQL database file
+*.postgres             filter=lfs diff=lfs merge=lfs -text
+# PostgreSQL database file
+*.psql                 filter=lfs diff=lfs merge=lfs -text
+# SQL database file
+*.sql                  filter=lfs diff=lfs merge=lfs -text
+# SQLite database file
+*.sqlite               filter=lfs diff=lfs merge=lfs -text
+# SQLite database file
+*.sqlite3              filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Programming language template formats
+## 🇵🇹 Formatos de modelo de linguagem de programação
+## 🇪🇸 Formatos de modelo de lenguaje de programación
+# JavaScript template
+*.ejs                  filter=lfs diff=lfs merge=lfs -text
+# Ruby template
+*.erb                  filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Web configuration formats
+## 🇵🇹 Formatos de configuração de web
+## 🇪🇸 Formatos de configuración de web
+# Apache configuration file
+*.htaccess             filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Download and shortcut formats
+# 🇵🇹 Formatos de descarga e de atalho
+# 🇪🇸 Formatos de descarga y de atajo
+# Windows shortcut
+*.lnk                  filter=lfs diff=lfs merge=lfs -text
+# Metalink download description file
+*.metalink             filter=lfs diff=lfs merge=lfs -text
+# Apple shortcut
+*.shortcut             filter=lfs diff=lfs merge=lfs -text
+# BitTorrent download description file
+*.torrent              filter=lfs diff=lfs merge=lfs -text
+# Web location file (Safari)
+*.webloc               filter=lfs diff=lfs merge=lfs -text
+# URL shortcut file
+*.url                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Font formats
+# 🇵🇹 Formatos de tipo de letra
+# 🇪🇸 Formatos de fuente
+# Bitmap Distribution Format font
+*.bdf                  filter=lfs diff=lfs merge=lfs -text
+# Mac OS X data fork font
+*.dfont                filter=lfs diff=lfs merge=lfs -text
+# Embedded OpenType font
+*.eot                  filter=lfs diff=lfs merge=lfs -text
+# Windows font
+*.fnt                  filter=lfs diff=lfs merge=lfs -text
+# Windows font
+*.fon                  filter=lfs diff=lfs merge=lfs -text
+# Glyphs font
+*.glyphs               filter=lfs diff=lfs merge=lfs -text
+# OpenType font
+*.otf                  filter=lfs diff=lfs merge=lfs -text
+# Portable Compiled Format font for X terminals
+*.pcf                  filter=lfs diff=lfs merge=lfs -text
+# PostScript Type 1 font for bootloaders
+*.pf2                  filter=lfs diff=lfs merge=lfs -text
+# PostScript Type 1 font
+*.pfa                  filter=lfs diff=lfs merge=lfs -text
+# PostScript Type 1 font
+*.pfb                  filter=lfs diff=lfs merge=lfs -text
+# PostScript Type 1 font
+*.pfm                  filter=lfs diff=lfs merge=lfs -text
+# FontForge font
+*.sfd                  filter=lfs diff=lfs merge=lfs -text
+# TrueType font collection
+*.ttc                  filter=lfs diff=lfs merge=lfs -text
+# TrueType font
+*.ttf                  filter=lfs diff=lfs merge=lfs -text
+# Unified Font Object
+*.ufo                  filter=lfs diff=lfs merge=lfs -text
+# FontLab font
+*.vfb                  filter=lfs diff=lfs merge=lfs -text
+# Web Open Font Format font
+*.woff                 filter=lfs diff=lfs merge=lfs -text
+# Web Open Font Format font
+*.woff2                filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Colour palette formats
+# 🇵🇹 Formatos de paleta de cor
+# 🇪🇸 Formatos de paleta de color
+# Adobe Colour Book file
+*.acb                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Colour file
+*.aco                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Swatch Exchange file
+*.ase                  filter=lfs diff=lfs merge=lfs -text
+# Apple colour palette file
+*.clr                  filter=lfs diff=lfs merge=lfs -text
+# Corel palette file
+*.cpl                  filter=lfs diff=lfs merge=lfs -text
+# Adobe colours configuration file
+*.csf                  filter=lfs diff=lfs merge=lfs -text
+# GIMP palette file
+*.gpl                  filter=lfs diff=lfs merge=lfs -text
+# Gravit Designer Swatch file
+*.gvswatch             filter=lfs diff=lfs merge=lfs -text
+# Microsoft Windows palette file
+*.pal                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Windows palette file
+*.palx                 filter=lfs diff=lfs merge=lfs -text
+# XML colour palette file
+*.xml                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Subtitle formats
+# 🇵🇹 Formatos de subtítulo
+# 🇪🇸 Formatos de subtítulo
+# YouTube subtitle file
+*.sbv                  filter=lfs diff=lfs merge=lfs -text
+# SubRip subtitle file
+*.srt                  filter=lfs diff=lfs merge=lfs -text
+# 🇪SubStation Alpha subtitle file
+*.ssa                  filter=lfs diff=lfs merge=lfs -text
+# SubViewer subtitle file
+*.sub                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Other formats
+# 🇵🇹 Outros formatos
+# 🇪🇸 Otros formatos
+
+## 🇬🇧 Adobe After Effects formats
+## 🇵🇹 Formatos de Adobe After Effects
+## 🇪🇸 Formatos de Adobe After Effects
+# Adobe After Effects template file
+*.aecap                filter=lfs diff=lfs merge=lfs -text
+# Adobe After Effects graphic file
+*.aegraphic            filter=lfs diff=lfs merge=lfs -text
+# Adobe After Effects project file
+*.aep                  filter=lfs diff=lfs merge=lfs -text
+# Adobe After Effects project file
+*.aepx                 filter=lfs diff=lfs merge=lfs -text
+# Adobe After Effects template file
+*.aet                  filter=lfs diff=lfs merge=lfs -text
+# Adobe After Effects preset file
+*.ffx                  filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Sublime Text formats
+## 🇵🇹 Formatos de Sublime Text
+## 🇪🇸 Formatos de Sublime Text
+# Sublime Text build file
+*.sublime-build        filter=lfs diff=lfs merge=lfs -text
+# Sublime Text commands file
+*.sublime-commands     filter=lfs diff=lfs merge=lfs -text
+# Sublime Text completions file
+*.sublime-completions  filter=lfs diff=lfs merge=lfs -text
+# Sublime Text keymap file
+*.sublime-keymap       filter=lfs diff=lfs merge=lfs -text
+# Sublime Text menu file
+*.sublime-menu         filter=lfs diff=lfs merge=lfs -text
+# Sublime Text options file
+*.sublime-options      filter=lfs diff=lfs merge=lfs -text
+# Sublime Text package file
+*.sublime-package      filter=lfs diff=lfs merge=lfs -text
+# Sublime Text project file
+*.sublime-project      filter=lfs diff=lfs merge=lfs -text
+# Sublime Text settings file
+*.sublime-settings     filter=lfs diff=lfs merge=lfs -text
+# Sublime Text snippet file
+*.sublime-snippet      filter=lfs diff=lfs merge=lfs -text
+# Sublime Text theme file
+*.sublime-theme        filter=lfs diff=lfs merge=lfs -text
+# Sublime Text workspace file
+*.sublime-workspace    filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Skylum applications formats
+## 🇵🇹 Formatos de aplicações de Skylum
+## 🇪🇸 Formatos de aplicaciones de Skylum
+# Luminar catalog file
+*.lrcat                filter=lfs diff=lfs merge=lfs -text
+# Luminar Template Collection file
+*.ltc                  filter=lfs diff=lfs merge=lfs -text
+# Look Up Table (LUT) file
+*.lut                  filter=lfs diff=lfs merge=lfs -text
+
+## 🇬🇧 Various
+## 🇵🇹 Diversos
+## 🇪🇸 Diversos
+# Adobe Photoshop brush
+*.8ba                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Photoshop colour picker
+*.8ci                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Photoshop pattern
+*.8el                  filter=lfs diff=lfs merge=lfs -text
+# Adobe Photoshop gradient
+*.8lm                  filter=lfs diff=lfs merge=lfs -text
+# Adobe brush file
+*.abr                  filter=lfs diff=lfs merge=lfs -text
+# Affinity Designer brush file
+*.afbrushes            filter=lfs diff=lfs merge=lfs -text
+# ANSI art file
+*.ans                  filter=lfs diff=lfs merge=lfs -text
+*.ansi                 filter=lfs diff=lfs merge=lfs -text
+# Unity asset file
+*.asset                filter=lfs diff=lfs merge=lfs -text
+# MySQL Editor configuration file
+*.cnf                  filter=lfs diff=lfs merge=lfs -text
+# Dynamic Link Library file
+*.dll                  filter=lfs diff=lfs merge=lfs -text
+# DaVinci Resolve project
+*.drp                  filter=lfs diff=lfs merge=lfs -text
+# Unknown file (Unity)
+*.dwlt                 filter=lfs diff=lfs merge=lfs -text
+# E-mail file
+*.eml                  filter=lfs diff=lfs merge=lfs -text
+# E-mail file (Apple Mail)
+*.emlx                 filter=lfs diff=lfs merge=lfs -text
+# Autodesk FBX file
+*.fbx                  filter=lfs diff=lfs merge=lfs -text
+# iCalendar file
+*.ics                  filter=lfs diff=lfs merge=lfs -text
+# License file
+*.license              filter=lfs diff=lfs merge=lfs -text
+# Log file
+*.log                  filter=lfs diff=lfs merge=lfs -text
+# 3DS Max Materials or Vue Material or V-Ray Materials file
+*.mat                  filter=lfs diff=lfs merge=lfs -text
+# Microsoft Access database file
+*.mdb                  filter=lfs diff=lfs merge=lfs -text
+# Unity metadata file
+*.meta                 filter=lfs diff=lfs merge=lfs -text
+# Outlook e-mail file
+*.msg                  filter=lfs diff=lfs merge=lfs -text
+# Natron project file
+*.ntp                  filter=lfs diff=lfs merge=lfs -text
+# Preferences file (Unity)
+*.prefs                filter=lfs diff=lfs merge=lfs -text
+# Pixelmator brush file
+*.pxb                  filter=lfs diff=lfs merge=lfs -text
+# Pixelmator gradient file
+*.pxg                  filter=lfs diff=lfs merge=lfs -text
+# R data file
+*.rda                  filter=lfs diff=lfs merge=lfs -text
+# R data file
+*.rdata                filter=lfs diff=lfs merge=lfs -text
+# R history file
+*.rhistory             filter=lfs diff=lfs merge=lfs -text
+# Visual Studio solution file
+*.sln                  filter=lfs diff=lfs merge=lfs -text
+# Unknown file (Unity)
+*.stamp                filter=lfs diff=lfs merge=lfs -text
+# TextExpander settings file
+*.textexpandersettings filter=lfs diff=lfs merge=lfs -text
+# Unity Scene file
+*.unity                filter=lfs diff=lfs merge=lfs -text
+# Unity Asset Package file
+*.unitypackage         filter=lfs diff=lfs merge=lfs -text
+# Preferences file (Unity)
+*.userprefs            filter=lfs diff=lfs merge=lfs -text
+# vCard file
+*.vcf                  filter=lfs diff=lfs merge=lfs -text
+# Waveform audio file
+*.wav                  filter=lfs diff=lfs merge=lfs -text
+# Web archive file (Safari)
+*.webarchive           filter=lfs diff=lfs merge=lfs -text
+# Wondershare Filmora project
+*.wfp                  filter=lfs diff=lfs merge=lfs -text
+
+# 🇬🇧 Files and folders that should not become LFS
+# 🇵🇹 Ficheiros e pastas que não devem tornar-se LFS
+# 🇪🇸 Archivos y carpetas que no deben convertirse en LFS
+
+## Global
+.github/**/*.yml           !filter !diff !merge text
+.gitlab-ci.yml             !filter !diff !merge text
+.gitlab/*.yml              !filter !diff !merge text
+**/*.dockerfile            !filter !diff !merge text
+**/*.dockerignore          !filter !diff !merge text
+**/*/README.md             !filter !diff !merge text
+**/assets/images/**/*.*    !filter !diff !merge text
+1-*.yaml                   !filter !diff !merge text
+2-*.yaml                   !filter !diff !merge text
+3-*.yaml                   !filter !diff !merge text
+CHANGELOG.md               !filter !diff !merge text
+CONTRIBUTING.md            !filter !diff !merge text
+FAQ.md                     !filter !diff !merge text
+LICENSE                    !filter !diff !merge text
+LICENSE.md                 !filter !diff !merge text
+README.md                  !filter !diff !merge text
+package.json               !filter !diff !merge text
+package-lock.json          !filter !diff !merge text
+package.yaml               !filter !diff !merge text
+package.yml                !filter !diff !merge text
+pnpm-lock.yaml             !filter !diff !merge text
+pnpm-lock.yml              !filter !diff !merge text
+yarn.lock                  !filter !diff !merge text
+
+## 🇬🇧 Packages – Flatpak
+## 🇵🇹 Pacotes – Flatpak
+## 🇪🇸 Paquetes – Flatpak
+Installation*.md           !filter !diff !merge text
+
+## 🇬🇧 Packages – macOS
+## 🇵🇹 Pacotes – macOS
+## 🇪🇸 Paquetes – macOS
+Aplicativos*.md            !filter !diff !merge text
